@@ -161,6 +161,7 @@
 				TargetAttributes = {
 					59BCE94819D75A57007ED67C = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 3ZY434WW3H;
 					};
 					59BCE95D19D75A57007ED67C = {
 						CreatedOnToolsVersion = 6.0;
@@ -336,9 +337,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Touch ID Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7a5b406d-ef83-4297-97fb-02d470b2847e";
 			};
 			name = Debug;
 		};
@@ -346,9 +350,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Touch ID Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7a5b406d-ef83-4297-97fb-02d470b2847e";
 			};
 			name = Release;
 		};
@@ -405,6 +412,7 @@
 				59BCE96A19D75A57007ED67C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59BCE96B19D75A57007ED67C /* Build configuration list for PBXNativeTarget "Touch ID ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +421,7 @@
 				59BCE96D19D75A57007ED67C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
